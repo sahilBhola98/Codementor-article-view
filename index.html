@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Article-Preview</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/7882f2c3c5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="article-preview">
+    <div class="article-photo">
+      <img class="article-img" src="images/drawers.jpg" alt="article-img">
+    </div>
+    <div class="article-content">
+      <div class="article-text">
+        <h3><strong>Shift the overall look and feel by adding these wonderful touches to furniture in your home</strong></h3>
+        <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some sample tips to help you make any room feel complete.</p>
+      </div>
+      <div class="user-info">
+        <img class="user-pic" src="images/avatar-michelle.jpg" alt="user-pic">
+        <div class="user-name">
+          <h4>Michelle Appleton</h4>
+          <p>
+            <em>28 JUNE 2020</em>
+          </p>
+        </div>
+        <div class="pop-up" onclick="myFunction()" style="display:inline-block;">
+          <em class="fas fa-share share-icon"></em>
+          <span class="pop-up-text" id="mypop">Share <em class="fa fa-facebook icon" aria-hidden="true"></em> <em class="fa fa-linkedin icon" aria-hidden="true"></em> <i class="fa fa-pinterest-p icon" aria-hidden="true"></i>
+          </span>
+          <script>
+            function myFunction() {
+              var pop = document.getElementById("mypop");
+              pop.classList.toggle("show");
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
